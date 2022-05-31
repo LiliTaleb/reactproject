@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.center {
+    margin: auto;
+    width: 44%;
+    height:50%;
+    padding: 10px;
+}
+.container {
+   text-align:center
+}
+.form {
+    /*width:500px;
+    height:500px;*/
+    border-radius: 3px;
+    background-color: hsl(205deg 18% 81%)
+}
+.formheader {
+    text-align: center;
+    font-size: 27px;
+    /* height: 35px; */
+    padding: 7px;
+    font-weight: 700;
+    background-color: hsl(188deg 10% 47%);
+}
+.flex-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.justify-content-center {
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.justify-content-left {
+    /* justify-content: start; */
+    width: 100%;
+    padding-left: 24%;
+    /* order: 3;
+
+}
+.control {
+    /*margin-right: 26px;*/
+}
+
+.lbl {
+    text-align: left;
+    margin-bottom: 10px;
+    color: hsl(187deg 4% 45%);
+    font-weight: 700;
+    font-size: 14px;
+}
+    .lbl > input[type=checkbox] {
+        border: 1px solid black;
+        height: 20px;
+        width: 30px;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+.inputControl > input {
+    width: auto;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+}
+.inputControl > select {
+    width: 310px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+}
+.btn {
+    width: 104px;
+    height: 30px;
+    border: none;
+    background-color: hsl(190deg 10% 48%);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.prompt {
+    text-align: left;
+}
+.formBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}

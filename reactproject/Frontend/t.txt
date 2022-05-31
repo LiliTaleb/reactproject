@@ -1,0 +1,14 @@
+This microservice will be responsible for consolidating the list of current supervisors as well as updating the notification service. As a part of this coding challenge, any submissions to this module will simply display the results. This data does not need to be moved to another service.
+1. This service must be implemented as a REST microservice with the following endpoints
+a. GET /api/supervisors
+i. This should return a JSON array of all the supervisors. The supervisors can be dynamically loaded via the REST endpoint at https://o3m5qixdng.execute-api.us-east-1.amazonaws.com/api/managers
+ii. The format of the supervisors returned must be displayed in the following format: “<jurisdiction> - <lastName>, <firstName>”
+iii. The supervisors must be sorted in alphabetical order, first by jurisdiction, then my last name, finally by first name.
+iv. Numeric jurisdictions should be removed from the response.
+b. POST /api/submit
+i. This endpoint should accept a request for a new notification request for a supervisor. The following data is required in the payload
+1. firstName
+2. lastName
+3. email
+4. phoneNumber 5. Supervisor
+ii. If this is a successful request, then all the associated information should be printed to the console.
